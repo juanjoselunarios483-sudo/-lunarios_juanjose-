@@ -87,3 +87,17 @@ for i in range(0, 11, 2):
 print("numeros del 1 al 20")
 for numero in range(1, 21):
     print(numero)
+
+# ejercicio 2 haz un programa que muestre la tabla de multiplicar de un numero dad por el usuario (del 1 al 10)
+
+numero_usuario = int(input("introduce un numero"))
+print(f"tabla de mutiplicar del {numero_usuario}")
+for i in range(1, 11,):
+    resultado = numero_usuario * i
+    print(("{numero_usuario} x {i} = {resultado}"))
+
+# ejercicio 3 haz un programa en python que pida un numero y muestre cuantos numeros pares hay desde 1 hasta ese numero (incluyendolo si es par) 
+
+conteo_pares =0
+#solicitar al usuario
+
